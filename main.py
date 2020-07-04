@@ -78,6 +78,5 @@ if __name__ == "__main__":
     chrom_out = []
     for chrom in population:
         if fitness(chrom) == maxFitness:
-            print(chrom, end = " ")
             for x in range(len(chrom)): 
                 print (chrom[x], end=" ")            
